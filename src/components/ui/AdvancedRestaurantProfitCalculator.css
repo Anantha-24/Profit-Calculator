@@ -1,0 +1,148 @@
+
+.w-full {
+    width: 100%;
+  }
+  
+  .max-w-4xl {
+    max-width: 64rem; 
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .gap-6 {
+    gap: 1.5rem; 
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem; 
+    margin-top: 1.5rem; 
+  }
+  
+  .card-header {
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-bottom: 0.5rem; 
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem; 
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem; 
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    margin-top: 0.25rem; 
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3182ce;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  button {
+    background-color: #3182ce;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .alert {
+    border-radius: 0.375rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .alert-description {
+    font-size: 1rem;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .mt-1 {
+    margin-top: 0.25rem; 
+  }
+  
+  .mt-4 {
+    margin-top: 1rem; 
+  }
+  
+  .mt-6 {
+    margin-top: 1.5rem; 
+  }
+  
+  .mt-8 {
+    margin-top: 2rem;
+  }
+  
+  .responsive-container {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .legend, .tooltip {
+    font-size: 1rem;
+    color: #333;
+  }
+  
